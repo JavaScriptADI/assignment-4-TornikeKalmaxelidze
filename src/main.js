@@ -32,7 +32,7 @@ console.log(arr.length);
 // იქნება 8 
 
 // task 5
-const includes = [10, 20, 30, 40];
+
 
 console.log(arr.includes(20));
 console.log(arr.includes(50));
@@ -119,10 +119,9 @@ for (let i = 0; i < color.length; i++) {
 // Assignment 4: Array Methods - splice and slice 
 
 const randomNumbers = [20, 21, 22, 23, 24, 25];
-let randomNumbersDelete = randomNumbers.splice(1, 2);
 console.log(randomNumbers);
 
-let randomNumbersAdd = randomNumbers.splice(1, 0, 21, 22)
+randomNumbers.splice(1, 0, 21, 22);
 console.log(randomNumbers);
 
 let ThreeElementChangelast = randomNumbers.slice(-3);
@@ -172,10 +171,10 @@ const Grid = [
     [100, 200, 300,],
     [400, 500, 600,],
     [700, 800, 900,]
-]
+];
 
 let GridElement = Grid[2][2];
-console.log(GridElement)
+console.log(GridElement);
 
 
 Grid[1][2] = 50;
@@ -187,12 +186,12 @@ const FourElements = [10, 20, 30, 40];
 
 let [first, secend] = FourElements;
 
-console.log('before swap')
+console.log('before swap');
 console.log('before', first);
 console.log('before', secend);
 
 [first, secend] = [secend, first];
-console.log('after swap')
+console.log('after swap');
 console.log('after', first);
 console.log('after', secend);
 
@@ -213,4 +212,18 @@ console.log(sortNumbers);
 
 sortNumbers.sort((a, b) => b - a);
 console.log(sortNumbers);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
